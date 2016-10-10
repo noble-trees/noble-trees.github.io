@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'oldgrowth';
+  src: url('oldgrowth.woff2') format('woff2'),
+       url('oldgrowth.woff')  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+:root {
+  height: 100%;
+  background-color: #2a4e00;
+  background-image: url('background.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: #c9d2bf;
+  font-family: 'oldgrowth';
+  text-align: center;
+}
+
+h1 {
+  margin-top: 25vh;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+nav {
+  margin-top: 32px;
+}
+
+a {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  font: 0 / 44px a;
+
+  background-size: 44px 44px;
+}
+
+a + a {
+  margin-left: 32px;
+}
+
+a.twitter {
+  background-image: url('s-twitter.png');
+}
+
+a.facebook {
+  background-image: url('s-facebook.png');
+}
